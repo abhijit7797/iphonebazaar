@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display:inline-block ;
+background: rgba(1, 46, 49, 0.267);
+color: rgb(175, 175, 175);
+padding: 5px 8px;
+margin: 10px 0;
+border-radius: 60px;
+
+
+}
+
+p{
+font-size: 27.5px;
+    color: rgb(0, 0, 0);
+}
+
+
+.container{
+max-width: 1300px;
+margin: auto;
+padding-right: 25px;
+
+
+}
+
+.row{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}    
+ 
+
+.col-2{
+
+flex-basis: 50%;
+max-width: 300px;
+
+}
+
+.col-2 img{
+max-width: 100%;
+padding: 50px 0;
+
+
+}
+
+.col-2 h1{
+
+font-size: 50px;
+line-height: 60px;
+margin: 25px 0;
+
+}
+h1 {
+    color: white;
+}
+
+.btn{
+
+display:inline-block ;
+background: rgb(160, 160, 160);
+color: rgb(0, 0, 0);
+padding: 8px 30px;
+margin: 30px 0;
+border-radius: 30px;
+transition: 0.5ms;
+
+}
+.btn:hover{
+    background: rgba(139, 139, 139, 0.096);
+}
+
+
+.header{
+
+background: radial-gradient(rgba(0, 0, 0, 0.788),#242323);
+
+
+}
+
+
+
+
+.col-4{
+flex-basis: 25%;
+padding: 10px;
+max-width: 200px;
+margin-bottom: 50px;
+transform: transform 0.5s;
+
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+
+.title{
+text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+color: rgb(19, 18, 18);
+
+}
+
+.title::after{
+    content: '';
+    background: #000000ce;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 47.5%;
+    transform: translateX(-47.5);
+
+
+}
+
+h4{
+
+color: none;
+font-weight: normal;
+
+}
+
+.col-4 p{
+
+    font-size: 14px;
+
+
+}
+
+.rating .fa{
+
+
+color: #6b7211c9;
+
+}
+
+.col-4:hover{
+
+    transform: translateY(-5px);
+}
+
+
+.offer{
+
+    background: radial-gradient(rgba(0, 57, 75, 0.548),#000000);
+margin-top: 50px;
+padding: 10px 0;
+
+}
+
+
+.col-2 .offer-img{
+
+padding: 20px;
+
+
+}
+
+.small{
+color: rgb(0, 0, 0);
+
+}
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #000000;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+.social-container .col {
+background-color: none;   
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #000000;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+/*--------------all products page------------*/
+
+.row2{
+justify-content: space-between;
+margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #333232;
+    padding: 5px;
+}
+select:focus{
+outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
